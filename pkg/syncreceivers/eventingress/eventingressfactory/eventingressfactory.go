@@ -1,8 +1,8 @@
 package eventingress
 
 import (
-	"github.com/devMarcus21/eventfunnel/pkg/utils/events"
-	response "github.com/devMarcus21/eventfunnel/pkg/utils/responses"
+	"github.com/devMarcus21/eventfunnel-azure/pkg/utils/events"
+	response "github.com/devMarcus21/eventfunnel-azure/pkg/utils/responses"
 )
 
 func CreateEventIngressHandler() func(events.Event) response.ServiceResponse {
